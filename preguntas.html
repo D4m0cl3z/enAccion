@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="preguntas.css">
+  </head>
+
+  <body>
+
+    <!-- banner -->
+
+   <header>
+     <div class="banner">
+       <div class="imagen" align="center">
+         <div id="imagen">
+           <div class="color">
+             <img width="496" height="100" src="./images/coloresfrios.jpg" alt="">
+           </div>
+         </div>
+         <div id="imagencentral" align="center">
+           <img width="345" height="250" src="./images/enaccion.png" alt="">
+         </div>
+         <div id="imagen">
+           <div class="color">
+             <img width="496" height="100" src="./images/colorescalidos.png" alt="">
+           </div>
+         </div>
+       </div>
+     </div>
+   </header>
+
+
+   <!-- contador -->
+
+   <div class="">
+     <span class="cuestionario">
+       <div id="c1" class="puntaje">
+         <p id="contador">Pregunta n°: </p>
+         <p id="correctas">Contador: </p>
+       </div>
+     <div id="c1"class="contenedorBotones">
+
+     <!-- pregunta -->
+
+       <div id="c1"class="contenedorBotones">
+         <div align="center" ><div class="pregunta">
+           <span class="blanco" id="colortext"> <h1 id="colortext"></h1></span>
+         </div></div>
+         <div class="centro" align="center">
+
+
+    <!-- Button trigger modal -->
+    <div class="centro" align="center">
+    <button id="b1" type="button" align="center" class="btn btn-primary  color_espacio_boton2" data-toggle="modal" data-target="#exampleModalCenter">
+    "amarillo"
+    </button>
+
+    </div>
+    <!-- Button trigger modal -->
+      <div class="centro" align="center">
+    <button id="b2" type="button" class="btn btn-primary  color_espacio_boton2" data-toggle="modal" data-target="#exampleModalCenter">
+     "azul"
+    </button>
+  </div>
+  <!-- Button trigger modal -->
+  <div class="centro" align="center">
+  <button id="b3" type="button" align="center" class="btn btn-primary  color_espacio_boton2" data-toggle="modal" data-target="#exampleModalCenter">
+  "amarillo"
+  </button>
+
+  </div>
+  <!-- Button trigger modal -->
+    <div class="centro" align="center">
+  <button id="b4" type="button" class="btn btn-primary  color_espacio_boton2" data-toggle="modal" data-target="#exampleModalCenter">
+   "azul"
+  </button>
+</div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">ACERTASTE!</h5>
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p id="cartel1">me sorprende lo mucho que sabes!</p>
+          </div>
+          <div class="modal-footer">
+
+            <button id="ac" type="button" class="btn btn-primary">continuar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"  data-backdrop="static" data-keyboard="false">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">UPS, TE EQUIVOCASTE</h5>
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p id="cartel2">mas suerte para la proxima!</p>
+          </div>
+          <div class="modal-footer">
+
+            <button id="ai" type="button" class="btn btn-primary">continuar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="preguntas.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,239 @@
+
+button.amarillo {
+background-color: #f0e56e;
+border: 1px solid black;
+height: 100px;
+width: 8%;
+padding: 5px 15px;
+color: 	#FFFF00;
+font-size: 16px;
+font-weight: 300;
+margin-top: 10px;
+margin-right: 10px;
+border-radius: 50%
+}
+
+button.amarillo:hover {
+cursor: pointer;
+background-color: #f0e51d;
+}
+button.amarillo:focus {outline:0;}
+
+button.naranja {
+background-color: #fab650;
+border: 1px solid black;
+height: 100px;
+width: 8%;
+padding: 5px 15px;
+color: 	#FFFF00;
+font-size: 16px;
+font-weight: 300;
+margin-top: 10px;
+margin-right: 10px;
+border-radius: 50%
+}
+
+button.naranja:hover {
+cursor: pointer;
+background-color: #f0a22e;
+}
+button.naranja:focus {outline:0;}
+
+
+
+
+button.rojo {
+background-color: #f0846e;
+border: 1px solid black;
+height: 100px;
+width: 8%;
+padding: 5px 15px;
+color: 	#FFFF00;
+font-size: 16px;
+font-weight: 300;
+margin-top: 10px;
+margin-right: 10px;
+border-radius: 50%
+}
+
+button.rojo:hover {
+cursor: pointer;
+background-color:#f25b3d;
+}
+button.rojo:focus {outline:0;}
+
+
+button.rosa {
+background-color: #f2a7d4;
+border: 1px solid black;
+height: 100px;
+width: 8%;
+padding: 5px 15px;
+color: 	#FFFF00;
+font-size: 16px;
+font-weight: 300;
+margin-top: 10px;
+margin-right: 10px;
+border-radius: 50%
+}
+
+button.rosa:hover {
+cursor: pointer;
+background-color:#f598de;
+}
+button.rosa:focus {outline:0;}
+
+
+
+button.violeta {
+background-color: #c172db;
+border: 1px solid black;
+height: 100px;
+width: 8%;
+padding: 5px 15px;
+color: 	#FFFF00;
+font-size: 16px;
+font-weight: 300;
+margin-top: 10px;
+margin-right: 10px;
+border-radius: 50%
+}
+
+button.violeta:hover {
+cursor: pointer;
+background-color:#b95bd9;
+}
+button.violeta:focus {outline:0;}
+
+
+
+
+button.azul {
+background-color: #6886d9;
+border: 1px solid black;
+height: 100px;
+width: 8%;
+padding: 5px 15px;
+color: 	#FFFF00;
+font-size: 16px;
+font-weight: 300;
+margin-top: 10px;
+margin-right: 10px;
+border-radius: 50%
+}
+
+button.azul:hover {
+cursor: pointer;
+background-color:#5176db;
+}
+button.azul:focus {outline:0;}
+
+
+
+
+button.celeste {
+background-color: #7fd7db;
+border: 1px solid black;
+height: 100px;
+width: 8%;
+padding: 5px 15px;
+color: 	#FFFF00;
+font-size: 16px;
+font-weight: 300;
+margin-top: 10px;
+margin-right: 10px;
+border-radius: 50%
+}
+
+button.celeste:hover {
+cursor: pointer;
+background-color:#5dc4c9;
+}
+button.celeste:focus {outline:0;}
+
+
+
+
+button.verde {
+background-color:#70d96a ;
+border: 1px solid black;
+height: 100px;
+width: 8%;
+padding: 5px 15px;
+color: 	#FFFF00;
+font-size: 16px;
+font-weight: 300;
+margin-top: 10px;
+margin-right: 10px;
+border-radius: 50%
+}
+
+button.verde:hover {
+cursor: pointer;
+background-color:#49d941;
+}
+button.verde:focus {outline:0;}
+
+
+
+button.blanco {
+background-color:#FAEBD7 ;
+border: 1px solid black;
+height: 100px;
+width: 8%;
+padding: 5px 15px;
+color: 	#FFFF00;
+font-size: 16px;
+font-weight: 300;
+margin-top: 10px;
+margin-right: 10px;
+border-radius: 50%
+}
+
+button.blanco:hover {
+cursor: pointer;
+background-color:#e3e6e4;
+}
+button.blanco:focus {outline:0;}
+
+
+
+
+
+
+button.negro {
+background-color:#a1a3a0 ;
+border: 1px solid black;
+height: 100px;
+width: 8%;
+padding: 5px 15px;
+color: 	#FFFF00;
+font-size: 16px;
+font-weight: 300;
+margin-top: 10px;
+margin-right: 10px;
+border-radius: 50%
+}
+
+button.negro:hover {
+cursor: pointer;
+background-color:#828282;
+}
+button.negro:focus {outline:0;}
+
+
+.fondoPreguntas{
+background-image:url("./fondo.png");
+width:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.fondo1{
+background-color: #f5f3cb;
+}
+
+.card{
+  border: 3px dashed black;
+}

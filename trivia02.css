@@ -1,0 +1,189 @@
+*{
+  margin:0;
+  padding: 0;
+}
+#titulo{
+  font-size: 30px;
+  background-color: orange;
+}
+body{
+  /* background: #C62828; */
+/* background: #FFC107; */
+  background: #BF360C;
+/* background: url(imagenes/foto01.jpeg); */
+/* background-repeat: repeat; */
+/* background-attachment: fixed; */
+
+ }
+
+ .inicio{
+  background: url(imagenes/intento02.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+
+}
+
+
+img{
+  width :auto;
+  height:350px ;
+  margin: auto;
+  display: block;  /*centrar una imagen*/
+  border-radius: 50%;
+  box-shadow: 5px 5px 0px #424242 ;        /*agrega una sombra*/
+  /* float: left; */
+}
+
+iframe, video {
+  border-radius: 5%;
+   box-shadow: 5px 5px 0px #424242 ;
+
+}
+
+ @font-face {
+ font-family: Hermes;
+    src: url('fonts/ Hermes.eot');
+    src: url('fonts/ Hermes.eo?#iefix') format('embedded-opentype'),
+         url('fonts/ Hermes.woff') format('woff'),
+         url('fonts/ Hermes.ttf') format('truetype'),
+         url('fonts/ Hermes.svg#adlerRegular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+ }
+
+ h1,h2,h3{
+   text-align: center; /*centra el texto*/
+
+ }
+
+ h1{
+   font-family: Hermes
+   text-decoration: underline;
+   height: 30%;
+   color: #fff;
+   background: black;
+   width: 35%;
+   /* margin-right: 10px;
+   margin-left: 50px; */
+   border-radius: 5%;
+   box-shadow: 5px 5px 0px #424242 ;
+ }
+
+
+h1{
+font-family: Hermes, cursive;
+font-family: Hermes, cursive;
+}
+
+h2,h3{
+font-family: 'Hermes', cursive ;
+
+}
+
+p {
+  font-family:"Hermes";
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 20px;
+text-transform:  uppercase;
+}
+
+
+header .main , footer {
+
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  display: block;
+
+}
+
+.section, footer , input{
+  background: #fff;
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+
+
+}
+
+.main .articles{
+  width: 68.5%;
+  margin-right: 1.5%;
+  /* float: left; */
+  /* background: #fff; */
+
+}
+
+.main .articles article {
+  padding: 20px;
+  /* background: #BF360C; */
+  background:#FFC107 ;
+  margin-bottom: 50px;
+border-radius: 5%;
+/* background: url(imagenes/03.jpeg); */
+/* background: url(imagenes/04.jpeg); */
+/* background: url(imagenes/foto01.jpeg); */
+/* background: url(imagenes/foto02.jpeg); */
+}
+
+aside , input{
+  border-radius: 10%;
+}
+
+
+aside{
+width: 70%;
+height: 40%;
+/* background: #BF360C; */
+background: #FFC107;
+/* float: left; */
+padding:5px;
+text-align: center;
+}
+
+footer{
+  background: #000;
+  color:#fff;
+  clear:both;
+  padding: 10px 0px ;
+
+}
+
+
+/* boton */
+
+
+input, textarea{
+  margin-bottom: 50px;
+  width:35%;
+  padding: 10px;
+
+}
+
+
+input[type="submit"]{
+margin-bottom: 0;
+background: #B71C1C;
+color: #fff;
+border: none;
+display: block;
+box-shadow: 5px 5px 0px #42424242 ;
+}
+
+input[type="submit"]:hover{
+
+background: #E53935;
+cursor:pointer; con modificas que cursor se va a mostar
+
+}
+
+
+
+
+
+0

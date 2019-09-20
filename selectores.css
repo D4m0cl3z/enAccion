@@ -1,0 +1,100 @@
+body{
+  background-color: white;
+}
+.imagen{
+  display: inline-block;
+  position: relative;
+}
+#colores{
+  margin-top:-30px;
+}
+#logo{
+  position: relative;
+  display: inline-block;
+}
+
+/* colores frios */
+
+.color1{
+  width: 80px;
+  height: 80px;
+  background-color: #a328a5;
+  display: inline-block;
+  border-radius: 5px;
+  border: 2px double black;
+}
+.color2{
+  width: 80px;
+  height: 80px;
+  background-color: #7b00a9;
+  display: inline-block;
+  border-radius: 5px;
+  border: 2px double black;
+}
+.color3{
+  width: 80px;
+  height: 80px;
+  background-color: #0059ff;
+  display: inline-block;
+  border-radius: 5px;
+  border: 2px double black;
+}
+.color4{
+  width: 80px;
+  height: 80px;
+  background-color: #00a3a2;
+  display: inline-block;
+  border-radius: 5px;
+  border: 2px double black;
+}
+.color5{
+  width: 80px;
+  height: 80px;
+  background-color: #01d63e;
+  display: inline-block;
+  border-radius: 5px;
+  border: 2px double black;
+}
+
+/* colores calidos */
+
+.color6{
+  width: 80px;
+  height: 80px;
+  background-color: #ffab00;
+  display: inline-block;
+  border-radius: 5px;
+  border: 2px double black;
+}
+.color7{
+  width: 80px;
+  height: 80px;
+  background-color: #ff7f00;
+  display: inline-block;
+  border-radius: 5px;
+  border: 2px double black;
+}
+.color8{
+  width: 80px;
+  height: 80px;
+  background-color: #ff3701;
+  display: inline-block;
+  border-radius: 5px;
+  border: 2px double black;
+}
+.color9{
+  width: 80px;
+  height: 80px;
+  background-color: #d3014c;
+  display: inline-block;
+  border-radius: 5px;
+  border: 2px double black;
+}
+.color10{
+  width: 80px;
+  height: 80px;
+  background-color: #a8006d;
+  display: inline-block;
+  border-radius: 5px;
+  border: 2px double black;
+}

@@ -1,0 +1,103 @@
+
+body{
+ background-color: #484242;
+
+}
+
+.modal{
+ background-color:rgba(0, 255, 0, 0.3);
+
+}
+
+#exampleModalCenter{
+ font-family: 'Lexend Tera', sans-serif;
+
+}
+
+#exampleModalCenter2{
+ background-color:rgba( 254, 000, 000, 0.4);
+ font-family: 'Lexend Tera', sans-serif;
+
+}
+
+#colortext{
+ text-align: center;
+
+}
+
+.btn btn-primary{
+ text-align: center;
+
+}
+
+div, .center{
+ align : center;
+
+}
+
+#colortext{
+ font-family: 'Lexend Tera', sans-serif;
+ font-size: 30px;
+ font-weight: bold;
+
+}
+
+#color_espacio_boton{
+ background: #FFC107;
+ border-bottom: #FFC107 ;
+ border-color: #FFC107;
+
+}
+
+.color_espacio_boton2{
+ font-family: 'Lexend Tera', sans-serif;
+ color:black;
+ background: #FFC107;
+ border-bottom: #FFC107 ;
+ border-color: #FFC107;
+ margin-top: 2%
+
+}
+
+
+.pregunta{
+margin-top: 5%;
+background-color: white;
+width: 1000px;
+height: auto;
+border-radius: 8px;
+
+}
+
+.puntaje{
+  background-color: white;
+  height: auto;
+  border-radius: 8px;
+
+}
+
+.cuestionario{
+  margin-left: 88px ;
+}
+
+#c1{
+  display: inline-block;
+
+}
+
+#imagen{
+  margin-top: 15px;
+  position: relative;
+  display: inline-block;
+
+}
+
+#imagencentral{
+  position: relative;
+  display: inline-block;
+
+}
+
+.color{
+margin-top:-30px;
+}

@@ -3,6 +3,13 @@ var OR=[6];
 var i=0;
 var res;
 
+function reset(){
+  var preguntas=[6];
+  var OR=[6];
+  var i=0;
+  var res;
+}
+
 function preguntas_niños(){
   preguntas[0]="¿Qué colores representan a EnAcción?";
   preguntas[1]="¿Qué estamos festejando hoy?";
@@ -363,3 +370,10 @@ var num = Number(sessionStorage.getItem("contador"));
 if(num==6){
   document.location.href = "cuarta.html";
 }
+
+
+//Evento reset//
+
+var resetButton = document.querySelector(".reset")
+
+resetButton.addEventListener ("click" , reset )

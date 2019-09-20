@@ -118,6 +118,49 @@ function preguntas_adultos(){
       respuestas:[true,false,false,false]
     }
 }
+
+// PREGUNTAS SEXUALIDAD.
+function preguntas_sexualidad(){
+  preguntas[0]="¿A partir de qué edad se puede asistir a una consulta médica
+  sin la compañía de un adulto o adulta\?";
+  preguntas[1]="¿Qué significan las siglas de ESI?";
+  preguntas[2]="¿Qué diferencia existe entre sexo y género?";
+  preguntas[3]="¿Cuál de estos no es un método anticonceptivo?";
+  preguntas[4]="¿Cuál de estas no es una enfermedad de transmisión sexual?";
+      preguntas[5]="¿nada3?"
+
+  OR[0]={
+    opciones:["18 años","16 años","14 años","12 años"],
+    respuestas:[false,false,true,false]
+  }
+
+  OR[1]={
+    opciones:["Educación Sexual Integral","Espacio de Sexualidad Infantil","Educación Saludable Integral","Entidad de Salud Integral"],
+    respuestas:[true,false,false,false]
+  }
+
+  OR[2]={
+    opciones:["El sexo es una condición biológica y el género es una construcción socio-cultural (correcta)","El género es una condición biológica y el sexo es una construcción socio-cultural","Ambos son una condición biológica","Ambos son una construcción socio-cultural"],
+    respuestas:[true,false,false,false]
+  }
+
+  OR[3]={
+    opciones:["Pastillas anticonceptivas","Preservativo","DIU","Pastilla del día después"],
+    respuestas:[false,false,false,true]
+  }
+
+  OR[4]={
+    opciones:["Herpes","Anginas","VIH","Hepatitis B"],
+    respuestas:[false,true,false,false]
+  }
+
+    OR[5]={
+      opciones:["testiculos","vagina","prostata","senos"],
+      respuestas:[false,false,false,true]
+    }
+}
+
+
 var edad=Number(localStorage.getItem("edadUsuario"));
 if (edad<13){
  preguntas_niños();

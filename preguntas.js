@@ -121,8 +121,7 @@ function preguntas_adultos(){
 
 // PREGUNTAS SEXUALIDAD.
 function preguntas_sexualidad(){
-  preguntas[0]="¿A partir de qué edad se puede asistir a una consulta médica
-  sin la compañía de un adulto o adulta\?";
+  preguntas[0]="¿A partir de qué edad se puede asistir a una consulta médica sin la compañía de un adulto o adulta?";
   preguntas[1]="¿Qué significan las siglas de ESI?";
   preguntas[2]="¿Qué diferencia existe entre sexo y género?";
   preguntas[3]="¿Cuál de estos no es un método anticonceptivo?";
@@ -162,9 +161,12 @@ function preguntas_sexualidad(){
 
 
 var edad=Number(localStorage.getItem("edadUsuario"));
-if (edad<13){
+if (edad === 0) {
+  preguntas_sexualidad();
+}
+else if (edad>0 && edad<13){
  preguntas_niños();
-}else if(edad>18){
+}else if(edad>=13 && edad<=18){
  preguntas_adolescentes();
 }else{
  preguntas_adultos();
@@ -193,6 +195,7 @@ i=Number(sessionStorage.getItem("contador"))-1;
 console.log(OR[1].opciones[1]);
 
 //RELLENO EL H1
+console.log(preguntas)
 var h1=document.querySelector("h1");
 h1.textContent=preguntas[i];
 
